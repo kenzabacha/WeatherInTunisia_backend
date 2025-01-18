@@ -37,7 +37,8 @@ def insert_feedback():
   except Exception as e:
         print("Error:", e)
         return jsonify({'message': 'An error occurred', 'status': 'error', 'error': str(e)}), 500    
-API_KEY = '0b05e8f8be3624d92484c0684e16c3e6'
+API_KEY = ''
+
 CORS(app)
 
 
