@@ -1,0 +1,6 @@
+flask-cors
+flaskext.mysql
+pymysql
+Bcrypt
+requests 
+jsonify
