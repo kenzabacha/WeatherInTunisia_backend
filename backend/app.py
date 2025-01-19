@@ -11,7 +11,7 @@ app = Flask(__name__, template_folder='templates')
 
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_DB'] = 'weatherTime'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'projetIT2025*'
+app.config['MYSQL_DATABASE_PASSWORD'] = '******'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 #feedback submission
